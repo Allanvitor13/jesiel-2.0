@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+    header {
+    background-color: purple;
+    height: 60px;
+    }
+
+header h1{
+    margin: 0%;
+    color: #fff;
+    padding: 10px; /** margem interna **/ 
+}
+
+    main{
+        width: 600px;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+    }
+
+    .img-animais{
+        border-radius: 50%;
+        background-color: #f4dfd4;
+        width: 250px;
+        border: 5px solid purple;
+    }
