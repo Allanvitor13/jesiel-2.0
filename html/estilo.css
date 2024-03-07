@@ -1,33 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
+    display: flex;
+    flex-direction: column;
+    min-height: 110vh;
+    justify-content: space-between;
     margin: 0;
 }
 
-img{
-    max-width: 100%;
-}
 
-    header {
-    background-color: purple;
+header, footer{
     height: 60px;
-    }
-
-header h1{
-    margin: 0%;
-    color: #fff;
-    padding: 10px; /** margem interna **/ 
 }
 
-    main{
-        width: 600px;
-        margin: 20px auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;   
-    }
+main{
+    height: calc(100vh - 150px);
+    background-color: orange;
+}
 
-    .img-animais{
-        border-radius: 50%;
-        background-color: #f4dfd4;
-        width: 250px;
-        border: 5px solid purple;
-    }
+header {
+    background-color: blueviolet;
+}
+
+footer{
+    background-color: brown;
+}
